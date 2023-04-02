@@ -6,51 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="styles.css"/>
+    <link rel="shortcut icon" href="Logo-1-agri.jpg">
 </head>
 <body>
-        <h1>Bienvenu.e.s sur notre VITRINE</h1>
+    <!-- PREMIERE PARTIE -->
     <section class="top-page">
-        <nav>
-            <li>Accueil</li>
-            <li>Les facultes</li>
-            <li>Inscription</li>
-       </nav>
+        <header class="header"> 
+            <img src="Logo-2-agri.jpg" alt="logo de l'entreprise">
+            <nav>
+                <a href="https://uganc.edu.gn" target="_blank">Accueil</a>
+                <a href="https://ujnk.edu.gn" target="_blank">Presentation</a>
+                <a href="https://uganc.edu.gn" target="_blank">Inscription</a>
+                <a href="">Nos partenaires</a>
+                <a href="">Carrieres</a>
+            </nav>
+        </header>
+
+       <div class="landing-page">
+        <h1>Soyez les bienvenu.e.s sur notre : VITRINE...AGRI.CULTURE-BUSINESS</h1>
+
+       </div>
     </section> <br> <br>
-    <div>
-        <form action="action.php" method="post">
-             <label for="adresse">Nom</label>
-             <input type="text" id="adresse" placeholder="votre adresse">
-             <label for="Telephone">votre numero</label>
-             <input type="text" id="Telephone" placeholder="votre numero">
-             <label for="e-mail">L'adresse mail</label>
-             <input type="email" id="e-mail" placeholder="votre adresse mail">
-        </form>
-    </div>
-    <H3>
-        Lorem ipsum dolor sit amet consectetur,
-        adipisicing elit. Fugiat, modi. Dolore 
-    .</H3>
-    <div>
-         <form action="action.php" method="post">
-             <fieldset>
-                 <legend>Les informations personnelles</legend>
-                 <label for="name">Nom</label>
-                 <input type="text" id="name" placeholder="votre nom"> <br>
-                 <label for="identifiant">ID</label>
-                 <input type="text" id="identifiant" placeholder="votre ID"> <br>
-                 <label for="e-mail">adresse mail</label>
-                 <input type="text" id="e-mail" placeholder="votre adresse mail"> <br>
-                 <input type="submit" value="Envoyer"> <br>
-             </fieldset>
+    <!-- DEUXIEME PARTIE -->
+    <section class="2part">
+        <div>
+            <h2 class="H2"><strong>Nos plus belles semences à couper le souffle!!</strong></H2>
+             <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Et debitis tempore, minima facilis delectus similique  <br>
+                iusto inventore temporibus amet! Facere recusandae repe <br>
+                llendus perferendis eius deserunt deleniti totam expedita, <br>
+                sapiente iste blanditiis quas veritatis sint non, autem  <br>
+                ducimus nisi quo facilis dicta quia provident ab alias quam. <br>
+                Ex deleniti facilis quos aliquid sit illo cumque doloribus  <br>
+                rem quod error? Delectus ex dolorem, incidunt ad repudiandae    <br>
+                nesciunt quidem perspiciatis explicabo error laborum harum  <br>
+                alias voluptatem, saepe quaerat! <br>
+            </p>
+            <img src="Agri-2.jpg" alt="" height="350" width="300">
+            <img src="Agri.jpg" alt="" width="300" height="350">
+            <img src="A-plan-1.jpg" alt="" width="300" height="350">
+            <img src="A-plan-2.jpg" alt="" width="300" height="350">
+        </div> <br> <br>
+        <form class="form" action="action.php" method="post" class="formulaire">
+            <fieldset>
+                <legend>Les informations personnelles</legend>
+                <label for="name">Nom...:</label>
+                <input type="text" id="name" placeholder="votre nom" required> <br> <br>
+                <label for="identifiant">ID......:</label>
+                <input type="text" id="identifiant" placeholder="votre ID" required> <br> <br>
+                <label for="e-mail">Email:</label>
+                <input type="text" id="e-mail" placeholder="votre adresse mail">  <br> <br>
+                <label for="gender">Genre:</label>
+                <select name="Genre" id="gender">
+                    <option value="homme">Homme</option>
+                    <option selected value="femme">Femme</option>
+                    <option value="Lgbt+">lgbt+</option>
+                </select>
+                <label for="age">Age</label>
+                <input type="number"  id="age" min="10" max="35" step="2" value="18"> <br> <br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="decrivez votre idée ici" required></textarea>
+                <br>
+                <input type="submit" value="Envoyer"> <br>
+            </fieldset>
          </form>
-    </div>
-         <p>
-              klsdhvjkljvsdklnvhidkl cxjklwdfv cxijkl <br>
-              ihklfdsvnwb xcjk;,njuzerhiofzehfhkkhslmlqiryhzio <br>
-             mlkhvvryhhiooorryeiouepoaûrtuie <br>
-         </p>
-    <footer>
-        <a href="mailto:camarass1999@gmail.com">Contactez-nous ici!</a> <br> <br>
+    </section> <br> <br>
+        
+    <footer class="FOOT">
+        <p>&copy;2023 <br> SEKOU CAMARA</p>
+        <a href="https://uganc.edu.gn" target="_blank">Conditions générales d'utilisation</a>
+        <a href="mailto:camarass1999@gmail.com" target="_blank">Contactez-nous ici!</a> <br> <br>
 
     </footer>   
 

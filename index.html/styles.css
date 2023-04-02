@@ -1,10 +1,59 @@
-a {
-    color: aqua;
-    margin: 20px;
+Section.top-page {
+background-image: url("Agri-.jpg");
+background-size: cover;
+height: 75vh;
 }
 
-nav  {  color: aqua;
-    margin: 20px;
+body {
+    margin: 0 auto;
+    
+    
 }
-{}
-{}
+
+header.header {
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+header.header img {
+    width: 120px;
+    height: 150px;
+}
+header.header nav {
+    margin-left: 150px;
+}
+
+header.header nav a {
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    margin-left: 25px;
+    padding: 20px;
+    font-size: large;
+    border: solid ;
+    border-radius:0 5 0 4 ;
+    background-size: cover;
+    
+}
+
+div.landing-page h1 {
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    margin-left: 100px;
+}
+.FOOT {
+    display: flex;
+
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.form {
+    color: rgb(28, 252, 28);
+    
+}
+
