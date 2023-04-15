@@ -1,14 +1,17 @@
-Section.top-page {
-background-image: url("Agri-.jpg");
-background-size: cover;
-height: 75vh;
+.top_page {
+    background-size: cover;
+    height: 75vh;
+    background-image: url("Agri-.jpg");
+    margin-top: 2px;
+    border: 2px solid 
+    
 }
 
-body {
-    margin: 0 auto;
-    
-    
-}
+.body {
+    margin: auto;
+    background-size: cover;
+
+    }
 
 header.header {
     display: flex;
@@ -21,21 +24,32 @@ header.header img {
     width: 120px;
     height: 150px;
 }
-header.header nav {
-    margin-left: 150px;
+
+
+header.header nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    margin-left: 50px;
+   
+       
 }
 
-header.header nav a {
-    text-decoration: none;
-    align-items: center;
+header.header nav ul li a {
     color: white;
+    text-decoration: none;
     justify-content: space-between;
-    margin-left: 25px;
-    padding: 20px;
-    font-size: large;
-    border: solid ;
-    border-radius:0 5 0 4 ;
-    background-size: cover;
+   background-color: blue;
+   padding: 7px;
+   font-size: 15px;
+   border: solid;
+
+}
+
+header.header nav ul li:hover a{
+    color: white; 
+    background-color:#1f2;
+    transition: 0.4s;
     
 }
 
@@ -47,13 +61,64 @@ div.landing-page h1 {
 }
 .FOOT {
     display: flex;
-
     justify-content: space-between;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
+    border: 3px solid green;
+    align-items: center;
+    margin-bottom: 15px;
 }
-.form {
-    color: rgb(28, 252, 28);
-    
+
+.Titre div {
+    display: inline-block;
+    width: 49%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
 }
+
+.A_D {
+background-color: khaki
+
+
+
+}
+
+.A_G {
+vertical-align: top;
+background-color:khaki
+
+}
+
+.A_G h3, p, table, iframe {
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.A_C {
+    background-color: #1f2;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.AG {
+    color: blue;
+}
+
+.Part h2, h3{
+    text-align: center;
+    background-color: khaki;
+}
+
+.Part {
+    background-color:
+    opacity:
+}
+.footer {
+    background-color: black;
+}
+
 
