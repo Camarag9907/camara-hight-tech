@@ -4,13 +4,12 @@
     background-image: url("Agri-.jpg");
     margin-top: 0px;
     border: 2px solid 
-    
 }
 
 .body {
     margin: auto;
-    background-size: cover;
-
+height: 100%;
+width: 100%;
     }
 
 header.header {
@@ -22,11 +21,9 @@ header.header {
 
 header.header img {
     width: 120px;
-    height: 150px;
+    height: 150px;  
 
-    
 }
-
 
 header.header nav ul li {
     list-style: none;
@@ -44,15 +41,12 @@ header.header nav ul li a {
    padding: 7px;
    font-size: 15px;
    border: solid;
-  
-
 }
 
 header.header nav ul li:hover a{
     color: white; 
     background-color:#1f2;
-    transition: 0.4s;
-    
+    transition: 0.4s;  
 }
 
 div.landing-page h1 {
@@ -68,14 +62,12 @@ div.landing-page h1 {
     text-decoration: none;
     border: 3px solid green;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .Titre div {
     display: inline-block;
     width: 48%;
-   
-
 }
 
 .A_D {
@@ -86,19 +78,16 @@ margin-top: 0px;
 margin-bottom: 0px;
 margin-left: 10px;
 margin-right: 0px;
-
-
-
 }
 
 .A_G {
 vertical-align: top;
 background-color:khaki;
-margin-right: 15px;
+margin-right: 5px;
 }
 
 .A_G h3, p, table, iframe {
-    margin-left: 15px;
+    margin-left: 5px;
     margin-right: 5px;
 }
 
@@ -118,10 +107,6 @@ margin-right: 15px;
     background-color: khaki;
 }
 
-.Part {
-    background-color:
-    opacity:
-}
 .FOOT {
     background-color: khaki;
 }
@@ -134,9 +119,10 @@ margin-right: 15px;
         align-items: center;
         flex-direction: column;   
     }
+   
+
     .header img {
-    margin-right: 2px;
-    flex-direction: column;
+    margin-top: 0px;
     }
     .FOOT nav {
      display: flex;
@@ -161,7 +147,7 @@ font-family: 'Times New Roman', Times, serif;
 background-color: yellow;
 overflow: scroll;
    }
-.A_G iframe {
+   .A_G iframe {
 display:
 }
 
@@ -173,15 +159,10 @@ display:
         background-color: khaki;
         width: auto;
         height: auto;
-        margin-top: 0px;
-        margin-bottom: 0px;
         margin-left: 4px;
-        margin-right: 0px;
         flex-direction: column;
    }
 }
-
-
 
 
 
