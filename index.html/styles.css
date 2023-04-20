@@ -73,18 +73,18 @@ div.landing-page h1 {
 
 .Titre div {
     display: inline-block;
-    width: 49%;
+    width: 48%;
    
 
 }
 
 .A_D {
 background-color: khaki;
-width: auto;
-height: auto;
+width: 100%;
+height: 100%;
 margin-top: 0px;
 margin-bottom: 0px;
-margin-left: 0px;
+margin-left: 10px;
 margin-right: 0px;
 
 
@@ -93,8 +93,8 @@ margin-right: 0px;
 
 .A_G {
 vertical-align: top;
-background-color:khaki
-
+background-color:khaki;
+margin-right: 15px;
 }
 
 .A_G h3, p, table, iframe {
@@ -150,7 +150,7 @@ background-color:khaki
         font-size: 15px;
     }
    .landig-page {
-    margin-left: 15px;
+    margin-left: 5px;
     align-items: center;
     justify-content: center;
    }
@@ -159,10 +159,25 @@ font-size: 1.2em;
 margin-left: 5px;
 font-family: 'Times New Roman', Times, serif;
 background-color: yellow;
+overflow: scroll;
    }
+.A_G iframe {
+display:
+}
+
    .body {
     margin: 0px;
     background-size: contain;
+   }
+   .A_D {
+        background-color: khaki;
+        width: auto;
+        height: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 4px;
+        margin-right: 0px;
+        flex-direction: column;
    }
 }
 
@@ -187,8 +202,9 @@ background-color: yellow;
      flex-direction: row;
     }
     .header.header nav ul li a {
-        color: yellow;
+        color: white;
         text-decoration: double;
+        border: solid yellow;
         
     }
    .landig-page {
@@ -206,11 +222,21 @@ color:darkmagenta;
     margin: 0px;
     background-size: contain;
    }
+
+   .A_G {
+    margin-right: 15px;
+   }
+
    .A_G h3 {
     font-size: 1.2em;
     margin-left: 5px;
     font-family: 'Times New Roman', Times, serif;
     color:blueviolet;
+    }
+    .A_D{
+        background-color: khaki;
+        width: auto;
+        height: 50%
     }
 
   }
