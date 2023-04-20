@@ -143,20 +143,22 @@ background-color:khaki
      justify-content: space-between;
      flex-direction: row;
     }
-    .header nav li a {
-        color: yellow;
+    .header.header nav ul li a {
         text-decoration: double;
+        border:salmon;
+        background-color: black;
+        font-size: 15px;
     }
    .landig-page {
     margin-left: 15px;
     align-items: center;
     justify-content: center;
    }
-   .A_G h3 ; p {
+   .A_G p {
 font-size: 1.2em;
 margin-left: 5px;
 font-family: 'Times New Roman', Times, serif;
-color: white;
+background-color: yellow;
    }
    .body {
     margin: 0px;
@@ -170,7 +172,47 @@ color: white;
 
  /* For tablets: */
   @media screen and (min-width: 768px)and (max-width: 1023px) {
-  
+    .header nav {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;   
+    }
+    .header img {
+    margin-right: 0px;
+    flex-direction: row;
+    }
+    .FOOT nav {
+     display: flex;
+     justify-content: space-between;
+     flex-direction: row;
+    }
+    .header.header nav ul li a {
+        color: yellow;
+        text-decoration: double;
+        
+    }
+   .landig-page {
+    margin-left: 8px;
+    align-items: center;
+    justify-content: center;
+   }
+   .A_G p {
+font-size: 1.2em;
+margin-left: 5px;
+font-family: 'Times New Roman', Times, serif;
+color:darkmagenta;
+   }
+   .body {
+    margin: 0px;
+    background-size: contain;
+   }
+   .A_G h3 {
+    font-size: 1.2em;
+    margin-left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color:blueviolet;
+    }
+
   }
 
 
