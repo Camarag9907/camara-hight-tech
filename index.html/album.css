@@ -20,7 +20,6 @@
 
 html {
     font-size: 62.5%;
-    overflow: hidden;
 }
 
 body {
@@ -143,8 +142,8 @@ span {
 .btn:hover {
     box-shadow: none;
 }
-        /* A propos de la page */
-.a_propos {
+
+ .a_propos {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,13 +202,11 @@ span {
 .produits-contenu .produit-box:hover {
     border-color: var(--main-color);
     transform: scale(1.02);
-
 }
 
 .produit-box i {
     font-size: 7rem;
     color: var(--main-color);
-
 }
 
 .produit-box h3 {
@@ -225,7 +222,7 @@ span {
 }
 .portofolio h2 {
     margin: bottom 3rem;
-}
+} 
 
 .portofolio-contenu {
     display: grid;
@@ -245,6 +242,7 @@ span {
 .portofolio-box img {
     width: 100%;
     transition: .3s ease;
+}
 
 .portofolio-box:hover {
     transform: scale: (1.1);
@@ -374,3 +372,8 @@ transform: translateY(0);
     color: var(--second-bg-color);
 }
 
+
+
+
+
+overflow: hidden;
